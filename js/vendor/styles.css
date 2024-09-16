@@ -1,0 +1,78 @@
+/* Style for the container div */
+#container {
+  width: 1200px;            /* Set the width to 1200px */
+  height: 800px;            /* Set the height to 800px */
+  border: 2px solid #ccc;   /* Light gray border */
+  position: absolute;       /* Allows positioning of the world div inside the container */
+  perspective: 600px;
+  overflow: hidden;
+}
+
+/* Style for the world div */
+#world {
+  position: absolute;
+  width: inherit;           /* Inherits the width from the container */
+  height: inherit;          /* Inherits the height from the container */
+  transform-style: preserve-3d;
+}
+
+.square {
+  position: absolute;
+  /* Define width, height, and other styles as needed */
+}
+
+.menu {
+  position: absolute;
+  width: 1200px;
+  height: 800px;
+  background-color: #C0FFFF;
+  display: none;
+}
+
+
+.button {
+  position: absolute;
+  width: 600px;
+  height: 250px;
+  background-color: #020e4e;
+  cursor: pointer;
+
+
+}
+p{
+  position: absolute;
+  font-size: 50px;
+  color: #fff;
+  margin: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: game;
+
+}
+@font-face {
+  font-family: game;
+  src: url("font/buttonfont.otf");
+}
+
+
+
+.button:hover {
+  background-color: #1868e1;
+}
+
+#button1 {
+  top: 100px;
+  left: 100px;
+}
+
+#button2 {
+  margin-top: 100px;
+  top: 350px;  /* Adjusted top to avoid overlap */
+  left: 100px;
+}
+
+#button3 {
+  top: 600px;  /* Adjusted top to avoid overlap */
+  left: 100px;
+}
