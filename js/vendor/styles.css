@@ -55,8 +55,6 @@ p{
   src: url("font/buttonfont.otf");
 }
 
-
-
 .button:hover {
   background-color: #1868e1;
 }

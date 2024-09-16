@@ -62,7 +62,6 @@ diamondsArray[0] = [
   [-300,20,100,0,0,0,50,50,"patterns/diamond1.png",1,50],
 ];
 
-
 //the Second level
 mapArray[1] = [
   //x , Y , Z , Rx ,Ry , Rz , Width , height , color,opacity

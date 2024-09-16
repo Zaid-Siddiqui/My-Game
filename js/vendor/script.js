@@ -19,8 +19,6 @@ var startArray = new Array();
 var finishArray = new Array();
 
 
-
-
 // Variables for movement
 var pressLeft = 0;
 var pressRight = 0;
